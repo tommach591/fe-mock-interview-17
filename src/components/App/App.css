@@ -1,0 +1,12 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title {
+  font-size: 32px;
+  margin: 2rem;
+}

@@ -1,0 +1,33 @@
+.Sudoku {
+  border: 1px solid black;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+
+.Row {
+  display: flex;
+}
+
+.Bottom {
+  border-bottom: 1px solid black;
+}
+
+.Box {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+
+  margin-left: -1px;
+  margin-top: -1px;
+
+  border-right: 1px solid black;
+}
+
+.Right {
+  border-right: 2px solid black;
+}
