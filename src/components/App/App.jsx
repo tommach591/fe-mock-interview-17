@@ -1,13 +1,10 @@
-import { useEffect, useState } from "react";
-import { useMobile } from "../../utils/useMobile";
+import { useState } from "react";
 import { useSudoku } from "../../utils/useSudoku";
 import "./App.css";
 import Sudoku from "../Sudoku";
 import Button from "../Button";
 
 function App() {
-  const isMobile = useMobile();
-
   const [puzzle, isValid] = useSudoku();
   const [board, setBoard] = useState(JSON.parse(JSON.stringify(puzzle)));
   const [solved, setSolved] = useState(0);
