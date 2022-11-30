@@ -1,15 +1,13 @@
 .Sudoku {
   border: 1px solid black;
-  padding-left: 1px;
-  padding-top: 1px;
 }
 
 .Row {
   display: flex;
 }
 
-.Bottom {
-  border-bottom: 1px solid black;
+.Top {
+  border-top: 1px solid black;
 }
 
 .Box {
@@ -26,8 +24,17 @@
   margin-top: -1px;
 
   border-right: 1px solid black;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.Right {
-  border-right: 2px solid black;
+.Red {
+  color: red;
+}
+
+.Left {
+  border-left: 2px solid black;
 }
